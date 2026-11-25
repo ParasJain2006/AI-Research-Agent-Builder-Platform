@@ -1,0 +1,11 @@
+# Exclude sensitive files and build artifacts from git archive / ZIP exports
+.env export-ignore
+.env.local export-ignore
+.venv export-ignore
+venv export-ignore
+.pytest_cache export-ignore
+__pycache__ export-ignore
+*.egg-info export-ignore
+build export-ignore
+dist export-ignore
+.DS_Store export-ignore
